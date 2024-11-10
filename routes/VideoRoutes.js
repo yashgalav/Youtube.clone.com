@@ -1,8 +1,8 @@
 const express = require("express");
-const checkAuth = require("../middleware/checkAuth");
+const checkAuth = require("./middleware/checkAuth");
 const router = express.Router();
 const cloudinary = require('cloudinary').v2;
-const VideoModel = require('../models/VideoModel')
+const VideoModel = require('./models/VideoModel')
 const mongoose = require("mongoose");
 require("dotenv").config;
 

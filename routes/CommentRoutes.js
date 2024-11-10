@@ -1,6 +1,6 @@
 const express = require("express");
-const checkAuth = require("../middleware/checkAuth");
-const CommentModel = require("../models/CommentModel");
+const checkAuth = require("./middleware/checkAuth");
+const CommentModel = require("./models/CommentModel");
 const { default: mongoose } = require("mongoose");
 const router = express.Router();
 
