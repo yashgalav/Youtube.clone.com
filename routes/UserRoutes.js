@@ -1,12 +1,12 @@
 const express = require("express");
 const router = express.Router();
 const bcrypt = require('bcrypt');
-const UserModel = require('../models/UserModel');
+const UserModel = require('/models/UserModel');
 const { default: mongoose } = require("mongoose");
 const cloudinary = require('cloudinary').v2;
 require("dotenv").config;
 const jwt = require('jsonwebtoken');
-const checkAuth = require('../middleware/checkAuth');
+const checkAuth = require('/middleware/checkAuth');
 
 
 cloudinary.config({ 
