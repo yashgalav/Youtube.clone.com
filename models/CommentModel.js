@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const User = require("./UserModel");
+const User = require('./UserModel');
 const VideoModel = require('./VideoModel');
 
 const commentSchema = new mongoose.Schema({
